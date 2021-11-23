@@ -1,0 +1,96 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:  #282c34;
+  min-height: 100vh;
+  display: flex;
+ 
+}
+
+body {
+  margin: 20 px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+
+}
+
+
+
+.store-container {
+  background-color: rgb(71, 71, 248);
+  display:flex;
+  Padding: 50px;
+  column-gap:150px;
+  column-width: 200px;
+  flex-grow: 2;
+}
+
+
+.product-list {
+   flex: 30%;
+   background-color: rgb(240, 238, 235);
+  border-radius: 0.75rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  
+ 
+}
+
+.product-name {
+
+  text-align: center;
+  color: #454546;
+  padding-bottom: 10px;
+  
+ }
+
+.price {
+  font-size: 40px;      
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.price-label {
+text-align: left;
+font-size: 15px;
+}
+
+.ruler {
+  margin-inline: 15px;
+}
+
+.access-list {
+  line-height: 45px;
+}
+
+.acc-given {
+  list-style: url("./outline_done_black_24dp.png");
+  
+}
+
+.acc-not-given {
+  list-style: url("./outline_disabled_by_default_black_24dp.png");
+  color: #88888a;
+}
+
+.buy-button{
+  background-color: lightblue;
+  color: blue;
+  padding:  20px;
+  width: 100%;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.title {
+  background-color: olive;
+  padding:20px;
+  text-align: center;
+  
+}
