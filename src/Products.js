@@ -3,6 +3,7 @@
   return (
     <div>
       <h1 className="title">XYZ Digital Services</h1>
+      <h2 className="title"> Membership Details</h2>
     <div className="store-container">
       <div className="product-list">
        
