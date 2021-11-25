@@ -2,11 +2,17 @@
   export function Products () {
   return (
     <div>
-      <h1 className="title">XYZ Digital Services</h1>
-      <h2 className="title"> Membership Details</h2>
+  
+      <div className="title">
+      <h1>XYZ Digital Services</h1>
+      <h2> Membership Details</h2>
+      </div>
+  
+  
     <div className="store-container">
+
+      <div className="hoverme">
       <div className="product-list">
-       
         <section className="product-name">Free </section>
         <section className="price">$0<span className = "price-label">/month</span></section>
         <hr className="ruler" />
@@ -22,9 +28,11 @@
         </ul>
 
         <button className="buy-button"> Buy Now </button>
+      
       </div>
-     
-    
+       </div>
+
+       <span>
       <div className="product-list">
         <section className="product-name">Plus</section>
         <section className="price">$9<span className = "price-label">/month</span></section>
@@ -42,8 +50,10 @@
 
         <button className="buy-button"> Buy Now </button>
       </div>
-      
+      </span>
+      <span>
       <div className="product-list">
+      
         <section className="product-name">Pro</section>
         <section className="price">$49<span className = "price-label">/month</span></section>
         <hr className="ruler" />
@@ -60,8 +70,10 @@
 
         <button className="buy-button"> Buy Now </button>
       </div>
-     </div>
-     </div>
+      </span>
+      </div>
+    
+    </div>
   );
   }
 
